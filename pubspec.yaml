@@ -1,0 +1,56 @@
+name: get_memes
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  readmore: ^2.2.0
+  get: ^4.6.5
+  flutter_rating_bar: ^4.0.1
+  dio: ^5.1.1
+  dartz: ^0.10.1
+  json_annotation: ^4.5.0
+
+  json_serializable: ^6.3.1
+  rxdart: ^0.27.3
+  shared_preferences: ^2.0.12
+  intl: ^0.18.0
+  fluttertoast: ^8.0.8
+  flutter_bloc: ^8.1.2
+  # flutter_svg: ^1.0.1
+  flutter_svg: ^0.23.0+1
+  flutter_easyloading: ^3.0.5
+  flutter_html: ^2.2.1
+  provider: ^6.0.5
+  carousel_slider: ^4.2.1
+  url_launcher: ^6.1.10
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.1.7
+  flutter_launcher_icons: ^0.11.0
+  flutter_lints: ^2.0.0
+  image_downloader: ^0.31.0
+
+
+  
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - lib/assets/images/
+    - lib/assets/fonts/
